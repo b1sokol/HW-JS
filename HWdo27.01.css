@@ -11,7 +11,7 @@ body {
 }
 
 .calculator {
-    width: 200px;
+    width: 240px;
     height: 800px;
     margin: auto;
 }
@@ -37,8 +37,9 @@ section > button {
 }
 
 input {
-    width: calc(200px - 8px);
-    font-size: 25px
+    width: calc(240px - 8px);
+    font-size: 25px;
+    border-radius: 15px;
 }
 
 .calculations {
@@ -56,4 +57,8 @@ input {
     justify-content: center;
     background: white;
     border-radius: 20px;
+}
+button {
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
 }
